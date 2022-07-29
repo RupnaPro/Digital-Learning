@@ -1,9 +1,13 @@
-.item:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6);
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item img {
+    filter: brightness(60%)
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+    font-size: 20px;
 }
